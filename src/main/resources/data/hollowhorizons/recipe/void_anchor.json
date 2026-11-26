@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P ",
+    "CRC",
+    "OCO"
+  ],
+  "key": {
+    "P": "minecraft:ender_pearl",
+    "C": "minecraft:iron_chain",
+    "R": "hollowhorizons:resonant_shard",
+    "O": "minecraft:crying_obsidian"
+  },
+  "result": {
+    "id": "hollowhorizons:void_anchor"
+  }
+}

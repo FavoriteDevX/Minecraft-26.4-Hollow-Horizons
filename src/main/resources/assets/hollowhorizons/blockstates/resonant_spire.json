@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hollowhorizons:block/resonant_spire_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hollowhorizons:block/resonant_spire"
+    },
+    "axis=z": {
+      "model": "hollowhorizons:block/resonant_spire_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "hollowhorizons:plasma_pool",
+  "fluid": {
+    "id": "hollowhorizons:void_plasma"
+  },
+  "rim": {
+    "id": "hollowhorizons:vitreous_obsidian"
+  },
+  "radius": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2,
+    "max_inclusive": 4
+  }
+}

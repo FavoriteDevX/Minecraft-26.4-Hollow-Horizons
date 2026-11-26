@@ -1,0 +1,71 @@
+{
+  "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "minecraft:enderman",
+              "weight": 10,
+              "count": 4
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "modifier": "append",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:reverse_portal"
+          },
+          "probability": 0.006
+        }
+      ]
+    },
+    "minecraft:audio/ambient_sounds": {
+      "additions": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      },
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:visual/fog_color": "#1a0f2b"
+  },
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [
+      "hollowhorizons:chasm_rift",
+      "hollowhorizons:plasma_pool"
+    ],
+    [],
+    [
+      "minecraft:end_gateway_return",
+      "hollowhorizons:vitreous_spire"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "hollowhorizons:updraft_vent",
+      "hollowhorizons:vitreous_shard_cluster"
+    ]
+  ],
+  "has_precipitation": false,
+  "temperature": 0.5
+}

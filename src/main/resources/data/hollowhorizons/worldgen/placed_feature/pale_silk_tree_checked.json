@@ -1,0 +1,17 @@
+{
+  "feature": "hollowhorizons:pale_silk_tree",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "id": "hollowhorizons:pale_silk_sapling",
+          "properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "feature": "hollowhorizons:pale_silk_tree",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 6,
+            "weight": 5
+          },
+          {
+            "data": 8,
+            "weight": 3
+          },
+          {
+            "data": 10,
+            "weight": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "id": "hollowhorizons:pale_silk_sapling",
+          "properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

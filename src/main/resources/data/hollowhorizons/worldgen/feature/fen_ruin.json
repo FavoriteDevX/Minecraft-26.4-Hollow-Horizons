@@ -1,0 +1,9 @@
+{
+  "type": "hollowhorizons:fen_ruin",
+  "bricks": {
+    "id": "hollowhorizons:fen_bricks"
+  },
+  "cracked": {
+    "id": "hollowhorizons:cracked_fen_bricks"
+  }
+}

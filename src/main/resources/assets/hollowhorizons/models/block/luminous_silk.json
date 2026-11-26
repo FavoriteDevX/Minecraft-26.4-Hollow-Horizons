@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "hollowhorizons:block/luminous_silk"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:echo_shard",
+    "hollowhorizons:pale_silk_thread",
+    "hollowhorizons:pale_silk_thread"
+  ],
+  "result": {
+    "id": "hollowhorizons:echo_string"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "hollowhorizons:void_ruins",
+  "biomes": "#hollowhorizons:has_structure/void_ruins",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

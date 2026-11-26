@@ -1,0 +1,68 @@
+{
+  "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "minecraft:enderman",
+              "weight": 10,
+              "count": 4
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "modifier": "append",
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:end_rod"
+          },
+          "probability": 0.003
+        }
+      ]
+    },
+    "minecraft:audio/ambient_sounds": {
+      "additions": {
+        "sound": "minecraft:block.amethyst_block.chime",
+        "tick_chance": 0.02
+      },
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:visual/fog_color": "#2c2840"
+  },
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return",
+      "hollowhorizons:resonant_spires"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "hollowhorizons:resonant_cluster_patch",
+      "minecraft:chorus_plant"
+    ]
+  ],
+  "has_precipitation": false,
+  "temperature": 0.5
+}

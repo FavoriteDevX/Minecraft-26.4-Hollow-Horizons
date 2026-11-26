@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "hollowhorizons-gametest",
+	"version": "1.0.0",
+	"name": "Hollow Horizons — testes automatizados",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": ["dev.hollowhorizons.test.HollowHorizonsGameTests"]
+	},
+	"depends": {
+		"hollowhorizons": "*",
+		"fabric-gametest-api-v1": "*"
+	}
+}

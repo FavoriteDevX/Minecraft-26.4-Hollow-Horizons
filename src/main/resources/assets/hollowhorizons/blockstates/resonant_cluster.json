@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "hollowhorizons:block/resonant_cluster"
+    },
+    "facing=down": {
+      "model": "hollowhorizons:block/resonant_cluster",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "hollowhorizons:block/resonant_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "hollowhorizons:block/resonant_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "hollowhorizons:block/resonant_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "hollowhorizons:block/resonant_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

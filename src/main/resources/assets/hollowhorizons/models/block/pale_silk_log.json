@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hollowhorizons:block/pale_silk_log_top",
+    "side": "hollowhorizons:block/pale_silk_log"
+  }
+}

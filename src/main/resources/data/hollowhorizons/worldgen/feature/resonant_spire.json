@@ -1,0 +1,21 @@
+{
+  "type": "hollowhorizons:resonant_spire",
+  "spire": {
+    "id": "hollowhorizons:resonant_spire",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "cluster": {
+    "id": "hollowhorizons:resonant_cluster",
+    "properties": {
+      "facing": "up",
+      "waterlogged": "false"
+    }
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 6,
+    "max_inclusive": 15
+  }
+}

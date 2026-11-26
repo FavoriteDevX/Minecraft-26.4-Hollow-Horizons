@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks",
+    "minecraft:end_stone_brick_slab",
+    "minecraft:end_stone_brick_stairs",
+    "minecraft:end_stone_brick_wall",
+    "minecraft:purpur_block",
+    "minecraft:purpur_pillar",
+    "minecraft:purpur_slab",
+    "minecraft:purpur_stairs",
+    "minecraft:chorus_plant",
+    "minecraft:chorus_flower",
+    "minecraft:end_rod",
+    "hollowhorizons:pale_silk_moss",
+    "hollowhorizons:vitreous_obsidian",
+    "hollowhorizons:vitreous_shard_cluster",
+    "hollowhorizons:resonant_spire",
+    "hollowhorizons:resonant_cluster",
+    "hollowhorizons:void_mud",
+    "hollowhorizons:fen_bricks",
+    "hollowhorizons:cracked_fen_bricks",
+    "hollowhorizons:updraft_vent"
+  ]
+}

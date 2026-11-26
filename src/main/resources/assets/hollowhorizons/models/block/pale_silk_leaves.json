@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "hollowhorizons:block/pale_silk_leaves"
+  }
+}
