@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hollowhorizons:item/hollow_core_pickaxe"
+  }
+}

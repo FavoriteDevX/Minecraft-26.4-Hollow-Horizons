@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hollowhorizons:block/resonant_spire_top",
+    "side": "hollowhorizons:block/resonant_spire"
+  }
+}

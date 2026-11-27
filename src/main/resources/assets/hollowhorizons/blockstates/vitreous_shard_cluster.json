@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster"
+    },
+    "facing=down": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "hollowhorizons:block/vitreous_shard_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

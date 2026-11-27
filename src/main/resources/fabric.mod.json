@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "hollowhorizons",
+	"version": "${version}",
+	"name": "Minecraft: Hollow Horizons",
+	"description": "A atualização do The End que a comunidade pede há anos: ilhas externas vivas, quatro biomas novos e equipamentos feitos para atravessar o Vazio.",
+	"authors": ["Hollow Horizons contributors"],
+	"contact": {
+		"sources": "https://github.com/FavoriteDevX/Minecraft-26.4-Hollow-Horizons",
+		"issues": "https://github.com/FavoriteDevX/Minecraft-26.4-Hollow-Horizons/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/hollowhorizons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.hollowhorizons.HollowHorizons"],
+		"client": ["dev.hollowhorizons.client.HollowHorizonsClient"]
+	},
+	"mixins": ["hollowhorizons.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

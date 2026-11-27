@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "VHV",
+    " E ",
+    " E "
+  ],
+  "key": {
+    "V": "hollowhorizons:vitreous_shard",
+    "H": "hollowhorizons:hollow_core",
+    "E": "minecraft:end_rod"
+  },
+  "result": {
+    "id": "hollowhorizons:hollow_core_pickaxe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "VRV",
+    "SES",
+    "VRV"
+  ],
+  "key": {
+    "V": "hollowhorizons:vitreous_shard",
+    "R": "hollowhorizons:resonant_shard",
+    "S": "minecraft:shulker_shell",
+    "E": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "hollowhorizons:hollow_core"
+  }
+}

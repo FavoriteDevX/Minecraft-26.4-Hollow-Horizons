@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "hollowhorizons:block/updraft_vent_top",
+    "side": "hollowhorizons:block/updraft_vent_side",
+    "bottom": "hollowhorizons:block/vitreous_obsidian"
+  }
+}

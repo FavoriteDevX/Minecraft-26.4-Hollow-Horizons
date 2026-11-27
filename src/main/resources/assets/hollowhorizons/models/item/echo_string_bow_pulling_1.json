@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "hollowhorizons:item/echo_string_bow_pulling_1"
+  }
+}

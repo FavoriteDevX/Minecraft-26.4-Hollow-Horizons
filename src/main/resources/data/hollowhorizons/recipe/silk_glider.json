@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "TCT",
+    "T T",
+    "T T"
+  ],
+  "key": {
+    "T": "hollowhorizons:pale_silk_thread",
+    "C": "minecraft:popped_chorus_fruit"
+  },
+  "result": {
+    "id": "hollowhorizons:silk_glider"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "hollowhorizons:vitreous_spire",
+  "body": {
+    "id": "hollowhorizons:vitreous_obsidian"
+  },
+  "tip": {
+    "id": "hollowhorizons:vitreous_shard_cluster",
+    "properties": {
+      "facing": "up",
+      "waterlogged": "false"
+    }
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 7,
+    "max_inclusive": 20
+  }
+}

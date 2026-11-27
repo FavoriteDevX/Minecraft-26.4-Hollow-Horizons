@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#hollowhorizons:pale_silk_logs"
+  ],
+  "result": {
+    "id": "hollowhorizons:pale_silk_planks",
+    "count": 4
+  }
+}
