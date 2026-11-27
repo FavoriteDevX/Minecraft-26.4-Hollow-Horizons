@@ -36,3 +36,32 @@ jobs:
         with:
           name: hollow-horizons
           path: build/libs/*.jar
+
+  client:
+    # Abre o cliente real do Minecraft numa tela virtual (Vulkan por software) e salva as screenshots.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Tela virtual e Vulkan por software
+        run: sudo apt-get update && sudo apt-get install -y xvfb mesa-vulkan-drivers
+
+      - name: Teste de cliente (jogo real)
+        env:
+          VK_ICD_FILENAMES: /usr/share/vulkan/icd.d/lvp_icd.json
+        run: xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew runClientGameTest --no-daemon
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gameplay-screenshots
+          path: build/run/clientGameTest/build/hollow-horizons-screenshots/

@@ -1,8 +1,8 @@
+# Minecraft-26.4-Hollow-Horizons
+
+<img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/cba72b2f-224d-4053-9307-a0db542b58d4" />
+
 <div align="center">
-
-<img src="src/main/resources/assets/hollowhorizons/icon.png" width="112" alt="Âncora do Vazio">
-
-# Minecraft: Hollow Horizons
 
 ### Atualização 26.4 — a atualização do End que a Mojang se recusa a lançar
 
@@ -32,6 +32,61 @@ E ele roda. Este repositório compila, gera um `.jar` jogável e é testado dent
 <img src="docs/end-map.png" width="560" alt="Mapa do End gerado com Hollow Horizons">
 <br><sub>Vista de cima de ilhas externas geradas pelo próprio Minecraft 26.3 com a atualização (renderizada a partir dos arquivos de região do mundo).</sub>
 </div>
+
+### Gameplay screenshots
+
+> Every image below comes from the real **Minecraft Java Edition 26.3** client running Hollow Horizons, with the game in English. They were captured automatically by the in-game client test (`./gradlew runClientGameTest`), which plays each scene with real keyboard and mouse input. Nothing is edited or mocked up.
+
+#### Installed and running
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/00_title_screen.jpg" alt="Title screen"><br><b>Title screen</b> — Minecraft Java 26.3 <i>(Modded)</i> with Fabric and Hollow Horizons loaded.</td>
+<td width="50%"><img src="docs/screenshots/02_creative_tab.jpg" alt="Creative tab"><br><b>Creative tab</b> — every new item and block in the <i>Hollow Horizons</i> tab.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/01_inventory.jpg" alt="Survival inventory"><br><b>Survival inventory</b> — all items and blocks given with <code>/give</code>, rendered by the game.</td>
+<td width="50%"><img src="docs/screenshots/03_equipment.jpg" alt="Equipped"><br><b>Equipped</b> — Silk Glider on the back, Null-Step Boots, Vitreous Cleaver in hand, Void Anchor in the off hand.</td>
+</tr>
+</table>
+
+#### The new items in use
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/04_void_anchor.jpg" alt="Void Anchor"><br><b>Void Anchor</b> — the player was dropped below the world and pulled back to the last solid block: <i>“The Void Anchor pulled you back!”</i></td>
+<td width="50%"><img src="docs/screenshots/05_resonance_compass.jpg" alt="Resonance Compass"><br><b>Resonance Compass</b> — one Resonant Shard later: <i>“Void Ruins resonates 697 blocks away”</i>, and the needle points there.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/06_echo_string_bow.jpg" alt="Echo String Bow"><br><b>Echo String Bow</b> — held in hand; the test then fires it and checks on the server that the echo arrow flies with no gravity.</td>
+<td width="50%"><img src="docs/screenshots/07_vitreous_cleaver.jpg" alt="Vitreous Cleaver"><br><b>Vitreous Cleaver</b> — hitting an Enderman (it flashes red); +4 damage against End creatures.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/08_hollow_core_pickaxe.jpg" alt="Hollow-Core Pickaxe"><br><b>Hollow-Core Pickaxe</b> — End Stone mined in one hit and sent straight to the inventory, nothing dropped into the Void.</td>
+<td width="50%"><img src="docs/screenshots/09_silk_glider.jpg" alt="Silk Glider"><br><b>Silk Glider</b> — gliding between islands above a Pale Silk Woods.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/10_updraft_vent.jpg" alt="Updraft Vent"><br><b>Updraft Vent</b> — standing on a vent lifts the player into the air (the test checks the height).</td>
+<td width="50%"></td>
+</tr>
+</table>
+
+#### The four new biomes and the Void Ruins
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/11_pale_silk_woods.jpg" alt="Pale Silk Woods"><br><b>Pale Silk Woods</b> — tall white trees with glowing canopies and floating silk spores.</td>
+<td width="50%"><img src="docs/screenshots/12_vitreous_chasms.jpg" alt="Vitreous Chasms"><br><b>Vitreous Chasms</b> — black glass cliffs and spires cracking the islands apart.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/13_resonant_spirefields.jpg" alt="Resonant Spirefields"><br><b>Resonant Spirefields</b> — fields of singing quartz towers.</td>
+<td width="50%"><img src="docs/screenshots/14_void_fen.jpg" alt="Void Fen"><br><b>Void Fen</b> — dark mud, dense water and glowing lilies.</td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/screenshots/15_void_ruins.jpg" alt="Void Ruins"><br><b>Void Ruins</b> — the sunken temple with its chest on the altar, found by the Resonance Compass.</td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ### Quatro biomas novos nas ilhas externas
 
@@ -91,24 +146,30 @@ Tronco, tábuas, folhas, muda e musgo de Seda Pálida · Teia de Luz · Obsidian
 
 **Sobre a arte:** nenhum PNG da Mojang foi copiado ou editado, porque redistribuir esses arquivos viola o EULA. Cada textura é desenhada pixel a pixel por [`tools/generate_textures.py`](tools/generate_textures.py), seguindo as regras de estilo do jogo: 16×16, paletas curtas em rampa de luz vinda de cima à esquerda, contorno de 1 px no tom mais escuro do próprio material e recorte binário em folhas e plantas.
 
-### Como jogar
+### Como jogar (instalação em 3 passos)
 
-**Para jogar:** instale o [Fabric Loader](https://fabricmc.net/use/) 0.20.1+ para **Minecraft Java 26.3** e o [Fabric API](https://modrinth.com/mod/fabric-api). Depois coloque `hollow-horizons-0.1.0.jar` (gerado por `./gradlew build` em `build/libs/`) na pasta `mods`. Crie um **mundo novo**: os biomas só aparecem em chunks do End ainda não gerados.
+1. Instale o **[Fabric Loader](https://fabricmc.net/use/installer/) 0.20.1 ou mais novo** para **Minecraft Java Edition 26.3**. O instalador cria o perfil "fabric-loader-26.3" no launcher oficial.
+2. Baixe o **[Fabric API](https://modrinth.com/mod/fabric-api) 0.167.0+26.3** e o **[`dist/hollow-horizons-0.1.0.jar`](dist/hollow-horizons-0.1.0.jar)** deste repositório. Coloque os dois na pasta `mods` do Minecraft:
+   - Windows: `%appdata%\.minecraft\mods`
+   - macOS: `~/Library/Application Support/minecraft/mods`
+   - Linux: `~/.minecraft/mods`
+3. Abra o launcher, escolha o perfil do Fabric e crie um **mundo novo**. Os biomas só aparecem em chunks do End que ainda não foram gerados; em mundos antigos, só nas ilhas que você ainda não visitou.
 
-Atalhos para ver tudo rapidamente (em um mundo com comandos):
+Tudo também aparece na aba criativa **Hollow Horizons**. Para ver tudo rápido (em um mundo com comandos):
 
 ```
 /execute in minecraft:the_end run locate biome hollowhorizons:pale_silk_woods
 /execute in minecraft:the_end run locate structure hollowhorizons:void_ruins
-/give @s hollowhorizons:void_anchor
+/give @s hollowhorizons:void_anchor[hollowhorizons:anchor_charges=4]
 ```
 
 **Para desenvolver** (requer JDK 25):
 
 ```bash
-./gradlew runClient       # abre o jogo com a atualização
-./gradlew build           # gera build/libs/hollow-horizons-0.1.0.jar
-./gradlew runGameTest     # testes dentro de um servidor Minecraft real
+./gradlew runClient           # abre o jogo com a atualização
+./gradlew build               # gera build/libs/hollow-horizons-0.1.0.jar
+./gradlew runGameTest         # testes dentro de um servidor Minecraft real
+./gradlew runClientGameTest   # abre o cliente real, usa cada item e salva as screenshots acima
 python3 tools/smoke_test.py   # mundo real: localiza e gera os biomas e as ruínas no End
 ```
 
@@ -124,6 +185,8 @@ Cada promessa desta página tem um teste que roda dentro do Minecraft (`src/game
 - as Asas de Seda recusam foguetes e limitam velocidade e queda, enquanto a Elytra continua aceitando;
 - as botas permitem um único salto extra, zeram a queda e cortam 80% do dano no End;
 - o gêiser empurra para cima, a bússola troca de alvo e as features e as Ruínas montam suas formas.
+
+Além disso, o **teste de cliente** abre o jogo de verdade (janela, renderização, teclado e mouse), cria um mundo e usa cada item como um jogador: a âncora puxa do Vazio, a bússola acha as Ruínas, a picareta minera direto para o inventário, as asas planam e o gêiser ergue o jogador. As screenshots da seção *Gameplay screenshots* saem dele.
 
 O [`tools/smoke_test.py`](tools/smoke_test.py) sobe um servidor com mundo normal (seed `26042026`), localiza no End os quatro biomas, as Ruínas do Vazio e uma Cidade do End via RCON, gera esses chunks e confere os blocos de cada lugar no terreno (musgo de seda, obsidiana vítrea, pilares ressonantes, lama, tijolos das ruínas). O GitHub Actions roda tudo isso a cada push.
 
